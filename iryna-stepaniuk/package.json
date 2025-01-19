@@ -5,8 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration=production --base-href=/iryna-stepaniuk/",
-    "postbuild": "cp dist/index.html dist/404.html",
+    "build:prod": "ng build --configuration=production --base-href=/iryna-stepaniuk/ && cp dist/index.html dist/404.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:iryna-stepaniuk": "node dist/iryna-stepaniuk/server/server.mjs"
