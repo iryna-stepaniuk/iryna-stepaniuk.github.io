@@ -5,10 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration=production --base-href=/iryna-stepaniuk/ && cp dist/iryna-stepaniuk/index.csr.html dist/iryna-stepaniuk/404.html",
+    "build:prod": "ng build --configuration=production --base-href=/iryna-stepaniuk/ && cp dist/iryna-stepaniuk/browser/index.html dist/iryna-stepaniuk/browser/404.html",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:iryna-stepaniuk": "node dist/iryna-stepaniuk/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -20,14 +19,12 @@
     "@angular/forms": "^18.1.0",
     "@angular/platform-browser": "^18.1.0",
     "@angular/platform-browser-dynamic": "^18.1.0",
-    "@angular/platform-server": "^18.1.0",
     "@angular/router": "^18.1.0",
     "@angular/ssr": "^18.1.3",
     "@nebular/eva-icons": "14.0.2",
     "@nebular/theme": "^14.0.2",
     "bootstrap": "^5.3.3",
     "eva-icons": "^1.1.3",
-    "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
