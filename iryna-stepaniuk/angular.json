@@ -56,7 +56,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/iryna-stepaniuk/"
             },
             "development": {
               "optimization": false,
